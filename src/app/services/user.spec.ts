@@ -1,0 +1,19 @@
+import { TestBed } from '@angular/core/testing';
+
+import { UserService } from './user';
+
+import { testProviders } from 'src/test-utils/firebase-test.providers';
+describe('UserService', () => {
+  let service: UserService;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+  providers: testProviders
+    });
+    service = TestBed.inject(UserService  );
+  });
+
+  it('should be created', () => {
+    expect(service).toBeTruthy();
+  });
+});

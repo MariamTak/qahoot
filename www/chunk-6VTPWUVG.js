@@ -1,0 +1,1 @@
+var e={production:!0,firebaseConfig:{apiKey:"AIzaSyClh0saN6sga8aTWyU2TtW7JNJ8ZiaiPig",authDomain:"kahoot-1372e.firebaseapp.com",projectId:"kahoot-1372e",storageBucket:"kahoot-1372e.firebasestorage.app",messagingSenderId:"847025104477",appId:"1:847025104477:web:d9f1b7f3afe6f79c5bcfb4"}};export{e as a};
